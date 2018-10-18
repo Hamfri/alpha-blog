@@ -25,7 +25,7 @@
          <%= link_to "View", article_path(article) %>
          </td>
          <td>
-         <a href="<%=%>">Delete</a>
+         <%= link_to 'Delete', article_path(article), method: :delete, data: {confirm: "Are you sure?"} %>
          </td>
     </tr>
     <% end %>
