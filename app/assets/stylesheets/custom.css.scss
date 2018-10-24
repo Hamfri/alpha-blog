@@ -34,15 +34,15 @@
 
 .btn-xl {
   font-size: 1.7em;
-  background-color: #fff;
-  color: #000;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
   width: 30%;
   border-color: #fff;
 }
 
 .btn-xl:hover {
   font-size: 1.7em;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   width: 30%;
   border-color: #000;
@@ -53,7 +53,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -78,4 +78,13 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+.articles-options {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
 }
