@@ -7,6 +7,9 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.1'
 # use bcrypt for securing passwords
 gem 'bcrypt', '~>3.1.7' 
+# For pagination
+gem 'will_paginate', '~>3.1.6'
+gem 'bootstrap-will_paginate', '~>1.0.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # use bootstrap
